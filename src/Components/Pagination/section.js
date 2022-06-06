@@ -7,7 +7,9 @@ const Button = ({ children, ...rest }) => (
     <button className="rounded border border-slate-300 w-10 h-10" {...rest}>{ children }</button>
 );
 
-const Section = ({ section, questions }) => {
+const Section = ({ section, questions, onClick }) => {
+    const onQuestionClick = question => () => onClick(section, question);
+
     return (
         <SectionContainer>
             <NoWrap>
@@ -15,7 +17,12 @@ const Section = ({ section, questions }) => {
             </NoWrap>
             {
                 questions.map(
-                    question => <Button key={question}>{question}</Button>
+                    question => (
+                        <Button key={question}
+                            onClick={onQuestionClick(question)}>
+                            {question}
+                        </Button>
+                    )
                 )
             }
         </SectionContainer>

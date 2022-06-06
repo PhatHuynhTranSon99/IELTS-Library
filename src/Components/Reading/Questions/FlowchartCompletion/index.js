@@ -15,9 +15,9 @@ const FlowchartCompletion = ({
     <React.Fragment>
         <TitleAndTask name={name} 
             task={task}/>
-        <TextCenter>
-            <SubHeading>{ title }</SubHeading>
-        </TextCenter>
+        <SubHeading>
+            <TextCenter>{ title }</TextCenter>
+        </SubHeading>
         <Image src={image} alt={name}/>
         <Questions questions={questions}/>
     </React.Fragment>

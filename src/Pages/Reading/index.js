@@ -10,7 +10,7 @@ import {
 import Paragraph from "../../Components/Reading/Paragraph";
 import QuestionsContainer from "../../Components/Reading/QuestionContainer";
 import Timer from "../../Components/Timer";
-import Pagination from "../Pagination";
+import Pagination from "../../Components/Reading/Pagination";
 
 const ReadingTest = () => {
     return (
