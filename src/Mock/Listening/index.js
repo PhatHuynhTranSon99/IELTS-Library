@@ -23,7 +23,7 @@ const data = {
                 },
                 {
                     "name": "Question 5-8",
-                    "task": "Complete the table bellow<br/><br/>Write <b>NO MORE THAN TWO WORDS</bo> for each answer",
+                    "task": "Complete the table bellow<br/>Write <b>NO MORE THAN TWO WORDS</bo> for each answer",
                     "heading": null,
                     "type": "TABLE_COMPLETION",
                     "rows": [
@@ -56,7 +56,7 @@ const data = {
                         {
                             "id": 3,
                             "items": [
-                                "<bold>Trip Two</bold>",
+                                "<b>Trip Two</b>",
                                 "9 days",
                                 "980 km",
                                 "<input id='7'/> pounds",

@@ -15,6 +15,6 @@ export const PaginationSection = ({ children }) => (
 );
 
 export const TestSection = ({ children }) => (
-    <div className="row-start-3 row-span-9 col-start1 col-span-2">{ children }</div>
+    <div className="row-start-3 row-span-9 col-start1 col-span-2 overflow-y-scroll">{ children }</div>
 );
 

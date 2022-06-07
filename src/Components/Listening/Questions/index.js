@@ -8,6 +8,7 @@ import {
     LABEL_MAP
 } from "./types";
 import NoteCompletion from "./NoteCompletion";
+import TableCompletion from "./TableCompletion";
 
 const Question = ({ type, ...rest }) => (
     <Container>
@@ -17,7 +18,7 @@ const Question = ({ type, ...rest }) => (
                 case NOTE_COMPLETION:
                     return <NoteCompletion {...rest}/>;
                 case TABLE_COMPLETION:
-                    return null;
+                    return <TableCompletion {...rest}/>;
                 case SINGLE_MULTIPLE_CHOICE:
                     return null;
                 case MULTIPLE_MULTIPLE_CHOICES:
