@@ -7,7 +7,7 @@ const listeningSlice = createSlice({
         questions: mockData, //All the questions along with pagination data
         userAnswers: {}, //When user chooses an answer, it will be recorded here
         correctAnswers: {}, //The correct answer, retrieve from the server, will be saved heree
-        focusedSection: 5, //Focused section, when user clicks on the pagination question
+        focusedSection: 1, //Focused section, when user clicks on the pagination question
         focusedQuestion: 1 //Focused question, when user clickes on the pagination question
     },
     reducers: {

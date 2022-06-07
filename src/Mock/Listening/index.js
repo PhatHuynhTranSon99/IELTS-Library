@@ -7,7 +7,7 @@ const data = {
             "tasks": [
                 {
                     "name": "Question 1-4",
-                    "task": "Complete the notes bellow<br/><br/>Write <b>ONE WORD AND/OR A NUMBER</b> for each answer.",
+                    "task": "Complete the notes bellow<br/>Write <b>ONE WORD AND/OR A NUMBER</b> for each answer.",
                     "heading": "Transport Survey",
                     "type": "NOTE_COMPLETION",
                     "questions": `

@@ -8,6 +8,7 @@ import {
     TimerSection 
 } from "../../Components/Listening/Layout";
 import ListeningPagination from "../../Components/Listening/Pagination";
+import QuestionsContainer from "../../Components/Listening/QuestionContainer";
 import Timer from "../../Components/Timer";
 
 const ListeningTest = () => (
@@ -22,6 +23,7 @@ const ListeningTest = () => (
                 </PlayerSection>
 
                 <TestSection>
+                    <QuestionsContainer />
                 </TestSection>
 
                 <PaginationSection>
