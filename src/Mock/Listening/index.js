@@ -294,15 +294,15 @@ const data = {
     ],
     "pagination": [
         {
-            "part": 1,
+            "section": 1,
             "questions": [1, 2, 3, 4, 5, 6, 7, 8]
         },
         {
-            "part": 2,
+            "section": 2,
             "questions": [9, 10, 11, 12, 13, 14,]
         },
         {
-            "part": 3,
+            "section": 3,
             "questions": [15, 16, 17, 18, 19, 20, 21, 22]
         },
     ]

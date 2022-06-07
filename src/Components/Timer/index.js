@@ -9,7 +9,7 @@ const Timer = ({ value, isNegative }) => {
     );
 };
 
-const TimerWrapper = ({ time = 0 }) => {
+const TimerWrapper = ({ time = 3600 }) => {
     const timeRemaining = useCountDown(time);
 
     return (
