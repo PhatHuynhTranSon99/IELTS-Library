@@ -3,6 +3,7 @@ import Container from "../../Components/Auxiliary/Container";
 import { 
     ListeningLayout, 
     PaginationSection, 
+    PlayerSection, 
     TestSection, 
     TimerSection 
 } from "../../Components/Listening/Layout";
@@ -16,6 +17,9 @@ const ListeningTest = () => (
                 <TimerSection>
                     <Timer />
                 </TimerSection>
+
+                <PlayerSection>
+                </PlayerSection>
 
                 <TestSection>
                 </TestSection>
