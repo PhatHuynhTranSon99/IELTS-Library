@@ -10,6 +10,7 @@ import Box from "../../Components/Auxiliary/Box";
 import Timer from "../../Components/Timer";
 import Task from "../../Components/Writing/Tasks";
 import WritingPagination from "../../Components/Writing/Pagination";
+import Answer from "../../Components/Writing/Answer";
 
 const WritingTest = () => (
     <Container>
@@ -24,7 +25,7 @@ const WritingTest = () => (
                 </QuestionSection>
                     
                 <AnswerSection>
-
+                    <Answer />
                 </AnswerSection>
 
                 <PaginationSection>

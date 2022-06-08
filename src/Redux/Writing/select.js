@@ -11,12 +11,15 @@ const getFocusedSection = state => {
     );
 };
 
+const getFocusedSectionId = state => state.writing.focusedSection;
+
 //Get a single answer from store
 const getUserAnswer = question => state => state.writing.userAnswers[question];
 
 export {
     getAllQuestions,
     getFocusedSection,
+    getFocusedSectionId,
     getPagination,
     getUserAnswer
 };
