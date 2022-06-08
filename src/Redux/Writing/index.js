@@ -9,17 +9,17 @@ const writingSlice = createSlice({
         focusedSection: 1
     },
     reducers: {
-        setQuestions: (state, payload) => {
+        setQuestions: (state, action) => {
             /**
              * payload has structure
              * {
              *      questions
              * }
              */
-            const { questions } = payload;
+            const { questions } = action.payload;
             state.questions = questions;
         },
-        setAnswer: (state, payload) => {
+        setAnswer: (state, action) => {
             /**
              * payload has structure
              * {
@@ -27,17 +27,17 @@ const writingSlice = createSlice({
              *      answer: the answer
              * }
              */
-            const { question, answer } = payload;
+            const { question, answer } = action.payload;
             state.userAnswers[question] = answer;
         },
-        setFocusedSection: (state, payload) => {
+        setFocusedSection: (state, action) => {
             /**
              * payload has structure
              * {
              *      section: the id of focused section
              * }
              */
-            const { section } = payload;
+            const { section } = action.payload;
             state.focusedSection = section;
         }
     }

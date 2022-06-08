@@ -26,7 +26,7 @@ const Section = ({ section, questions, onClick }) => {
                 )
             }
         </SectionContainer>
-    )
+    );
 };
 
 export default Section;

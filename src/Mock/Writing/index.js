@@ -5,8 +5,8 @@ const Writing = {
             "name": "Task 1",
             "type": "TASK_ONE",
             "content": `
-                The chart below gives information about the age of the women in Australia.<newline/>
-                Summarise the information by selecting and reporting the main features and make comparisons where relevant.<newline/>
+                The chart below gives information about the age of the women in Australia.<br/>
+                Summarise the information by selecting and reporting the main features and make comparisons where relevant.<br/>
             `,
             "image": "https://www.ieltsadvantage.com/wp-content/uploads/2015/07/IELTS-Academic-Task-1-Question.png"
         },
@@ -15,18 +15,18 @@ const Writing = {
             "name": "Task 2",
             "type": "TASK_TWO",
             "content": `
-                The chart below gives information about the age of the women in Australia.<newline/>
-                Summarise the information by selecting and reporting the main features and make comparisons where relevant.<newline/>
+                The chart below gives information about the age of the women in Australia.<br/>
+                Summarise the information by selecting and reporting the main features and make comparisons where relevant.<br/>
             `
         }
     ],
     "pagination": [
         {
-            "part": 1,
+            "section": 1,
             "questions": [1]
         },
         {
-            "part": 2,
+            "section": 2,
             "questions": [2]
         }
     ]

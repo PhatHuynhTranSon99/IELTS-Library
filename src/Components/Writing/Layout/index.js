@@ -3,7 +3,7 @@ export const TimerSection = ({ children }) => (
 );
 
 export const QuestionSection = ({ children }) => (
-    <div className="row-start-2 row-span-10 col-start-1 col-span-1">{ children }</div>
+    <div className="row-start-2 row-span-10 col-start-1 col-span-1 overflow-y-scroll">{ children }</div>
 );
 
 export const AnswerSection = ({ children }) => (
