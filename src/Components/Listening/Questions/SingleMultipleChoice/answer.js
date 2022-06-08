@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { updateAnswer } from "../../../../Redux/Listening/action";
-import { getUserAnswer } from "../../../../Redux/Listening/select";
+import { updateAnswer } from "../../../../Redux/Reading/action";
+import { getUserAnswer } from "../../../../Redux/Reading/select";
 
 const Answer = ({ question, 
     choice, 

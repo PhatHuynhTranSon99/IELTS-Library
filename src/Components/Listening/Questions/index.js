@@ -9,6 +9,8 @@ import {
 } from "./types";
 import NoteCompletion from "./NoteCompletion";
 import TableCompletion from "./TableCompletion";
+import SingleMultipleChoice from "./SingleMultipleChoice";
+import ManyMultipleChoice from "./ManyMultipleChoice";
 
 const Question = ({ type, ...rest }) => (
     <Container>
@@ -20,9 +22,9 @@ const Question = ({ type, ...rest }) => (
                 case TABLE_COMPLETION:
                     return <TableCompletion {...rest}/>;
                 case SINGLE_MULTIPLE_CHOICE:
-                    return null;
+                    return <SingleMultipleChoice {...rest}/>;
                 case MULTIPLE_MULTIPLE_CHOICES:
-                    return null;
+                    return <ManyMultipleChoice {...rest}/>;
                 case MATCH_ITEM:
                     return null;
                 case LABEL_MAP:
