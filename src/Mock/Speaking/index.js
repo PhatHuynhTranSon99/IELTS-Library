@@ -4,28 +4,28 @@ const Speaking = {
             "id": 1,
             "name": "Part 1",
             "content": `
-                The examiner ask the candidate about him/herself, his/her home, work or studies and other familiar topics<newline/>
-                <subheading>EXAMPLE</subheading>
-                <subheading>Food and cooking</subheading/>
-                {list}
-                    ---What sorts of food do you like eating most? Why?
-                    ---Who normally does the cooking in your house? Why? Why not?
-                    ---Do you watch cookery programs on TV? Why? Why not?
-                    ---In general, do you prefer eating out or at home? Why?
-                {endlist}
+                The examiner ask the candidate about him/herself, his/her home, work or studies and other familiar topics<br/>
+                <h2>EXAMPLE</h2>
+                <h2>Food and cooking</h2>
+                <ul>
+                    <li>What sorts of food do you like eating most? Why?</li>
+                    <li>Who normally does the cooking in your house? Why? Why not?</li>
+                    <li>Do you watch cookery programs on TV? Why? Why not?</li>
+                    <li>In general, do you prefer eating out or at home? Why?</li>
+                </ul>
             `
         },
         {
             "id": 2,
             "name": "Part 2",
             "content": `
-                Describe a house/apartment someone you know lives in<newline/><newline/>
+                Describe a house/apartment someone you know lives in
                 You should say:
-                {list}
-                    ---Whose house/apartment this is
-                    ---Where the house/apartment is
-                    ---What it looks like inside
-                {endlist}<newline/><newline/>                
+                <ul>
+                    <li>Whose house/apartment this is</li>
+                    <li>Where the house/apartment is</li>
+                    <li>What it looks like inside</li>
+                </ul>            
                 And explain what you like or dislike about this person’s house/apartment.
             `
         },
@@ -33,35 +33,35 @@ const Speaking = {
             "id": 3,
             "name": "Part 3",
             "content": `
-                <subheading>Discussion topics</subheading>
-                <subheading>Different types of home</subheading>
+                <h2>Discussion topics</h2>
+                <h2>Different types of home</h2>
                 Example questions:
-                {list}
-                    ---What kinds of home are most popular in your country? Why is this?
-                    ---What do you think are the advantages of living in a house rather than an apartment?
-                    ---Do you think that everyone would like to live in a larger home? Why is that?
-                {endlist}
-                <subheading>Different types of home</subheading>
-                <subheading>Example questions:</subheading>
-                {list}
-                    ---What kinds of home are most popular in your country? Why is this?
-                    ---What do you think are the advantages of living in a house rather than an apartment?
-                    ---Do you think that everyone would like to live in a larger home? Why is that?
-                {endlist}
+                <ul>
+                    <li>What kinds of home are most popular in your country? Why is this?</li>
+                    <li>What do you think are the advantages of living in a house rather than an apartment?</li>
+                    <li>Do you think that everyone would like to live in a larger home? Why is that?</li>
+                </ul>
+                <h2>Different types of home</h2>
+                <h2>Example questions:</h2
+                <ul>
+                    <li>What kinds of home are most popular in your country? Why is this?</li>
+                    <li>What do you think are the advantages of living in a house rather than an apartment?</li>
+                    <li>Do you think that everyone would like to live in a larger home? Why is that?</li>
+                </ul>
             `
         }
     ],
     "pagination": [
         {
-            "part": 1,
+            "section": 1,
             "questions": [1]
         },
         {
-            "part": 2,
+            "section": 2,
             "questions": [2]
         },
         {
-            "part": 3,
+            "section": 3,
             "questions": [3]
         }
     ]

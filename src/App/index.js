@@ -1,12 +1,12 @@
 import React from "react";
 import { Provider } from "react-redux";
-import WritingTest from "../Pages/Writing";
+import SpeakingTest from "../Pages/Speaking";
 import store from "../Redux";
 
 const App = () => {
     return (
         <Provider store={store}>
-            <WritingTest />
+            <SpeakingTest />
         </Provider>
     );
 };
