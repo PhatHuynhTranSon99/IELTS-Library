@@ -8,7 +8,7 @@ const TextInput = ({ id, placeholder, onInputChange, inputValue, ...rest }) => {
             className="border-2 border-gray-300 m-2 rounded p-1 w-32 text-center focus:outline-blue-300"
             placeholder={placeholder}
             onChange={onChange}
-            defaultChecked={inputValue ? inputValue(id) : null}
+            defaultValue={inputValue ? inputValue(id) : null}
             {...rest}/>
     );
 };

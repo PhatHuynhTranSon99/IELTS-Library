@@ -23,7 +23,6 @@ const getFocusedSection = state => {
 const getAllQuestions = state => {
     const focusedSectionIndex = state.listening.focusedSection;
     const focusedSection = state.listening.questions.sections.find(section => section.id === focusedSectionIndex);
-
     return focusedSection ? focusedSection.tasks : null;
 };
 
