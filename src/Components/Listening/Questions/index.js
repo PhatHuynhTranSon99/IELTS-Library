@@ -12,6 +12,7 @@ import TableCompletion from "./TableCompletion";
 import SingleMultipleChoice from "./SingleMultipleChoice";
 import ManyMultipleChoice from "./ManyMultipleChoice";
 import MatchItem from "./MatchItem";
+import MapLabelling from "./LabelMap";
 
 const Question = ({ type, ...rest }) => (
     <Container>
@@ -29,7 +30,7 @@ const Question = ({ type, ...rest }) => (
                 case MATCH_ITEM:
                     return <MatchItem {...rest}/>;
                 case LABEL_MAP:
-                    return null;
+                    return <MapLabelling {...rest}/>;
                 default:
                     return null;
             }
