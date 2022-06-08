@@ -8,7 +8,7 @@ const Heading = ({ id, content }) => (
 
 const Headings = ({ title, headings }) => (
     <div className="flex justify-center">
-        <div className="p-3 border border-2 border-slate-300">
+        <div className="px-5 py-3 border border-2 border-slate-300">
             <SubHeading>{ title }</SubHeading>
             {
                 headings.map(
