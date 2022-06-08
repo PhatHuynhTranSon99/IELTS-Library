@@ -1,43 +1,18 @@
-import Markdown from "../../../Auxiliary/Markdown";
+import Row from "./row";
+import Header from "./header";
 
-const HeadRow = ({ items }) => (
-    <tr>
-        {
-            items.map(
-                item => (
-                    <th key={item}
-                        className="border border-slate-300 p-3">
-                        <Markdown content={item}/>
-                    </th>
-                )
-            )
-        }
-    </tr>
-);
-
-const Row = ({ items }) => (
-    <tr>
-    {
-        items.map(
-            item => (
-                <td key={item}
-                    className="border border-slate-300 p-3">
-                    <Markdown content={item}/>
-                </td>
-            )
-        )
-    }
-    </tr>
-);
+//Helper function to get first row and remaining rows
+const getFirstRow = rows => rows[0];
+const getRemainingRows = rows => rows.slice(1);
 
 const Table = ({ rows }) => (
     <table className="border-collapse w-full">
         <thead>
-            <HeadRow {...rows[0]}/>
+            <Header {...getFirstRow(rows)}/>
         </thead>
         <tbody>
         {
-            rows.slice(1).map(
+            getRemainingRows(rows).map(
                 row => (
                     <Row key={row.id} 
                         {...row}/>
