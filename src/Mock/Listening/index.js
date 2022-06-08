@@ -225,19 +225,19 @@ const data = {
                     "questions": [
                         {
                             "id": 15,
-                            "content": "Less time should be spent on exercises. <input id='15'/>"
+                            "content": "Less time should be spent on exercises."
                         },
                         {
                             "id": 16,
-                            "content": "Less time should be spent on exercises. <input id='16'/>"
+                            "content": "Less time should be spent on exercises."
                         },
                         {
                             "id": 17,
-                            "content": "Less time should be spent on exercises. <input id='17'/>"
+                            "content": "Less time should be spent on exercises."
                         },
                         {
                             "id": 18,
-                            "content": "Less time should be spent on exercises. <input id='18'/>"
+                            "content": "Less time should be spent on exercises."
                         }
                     ],
                     "questionTitle": "Area of the world",

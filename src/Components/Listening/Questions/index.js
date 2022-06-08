@@ -11,6 +11,7 @@ import NoteCompletion from "./NoteCompletion";
 import TableCompletion from "./TableCompletion";
 import SingleMultipleChoice from "./SingleMultipleChoice";
 import ManyMultipleChoice from "./ManyMultipleChoice";
+import MatchItem from "./MatchItem";
 
 const Question = ({ type, ...rest }) => (
     <Container>
@@ -26,7 +27,7 @@ const Question = ({ type, ...rest }) => (
                 case MULTIPLE_MULTIPLE_CHOICES:
                     return <ManyMultipleChoice {...rest}/>;
                 case MATCH_ITEM:
-                    return null;
+                    return <MatchItem {...rest}/>;
                 case LABEL_MAP:
                     return null;
                 default:
