@@ -1,12 +1,12 @@
 import React from "react";
 import { Provider } from "react-redux";
-import HomePage from "../Pages/Home";
+import LibraryPage from "../Pages/Library";
 import store from "../Redux";
 
 const App = () => {
     return (
         <Provider store={store}>
-            <HomePage />
+            <LibraryPage />
         </Provider>
     );
 };
