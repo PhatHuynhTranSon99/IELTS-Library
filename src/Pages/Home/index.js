@@ -1,10 +1,13 @@
 import React from "react";
 import Article from "../../Components/Auxiliary/Web/Article";
+import { Carousel, CarouselItem } from "../../Components/Auxiliary/Web/Carousel";
+import Footer from "../../Components/Auxiliary/Web/Footer";
 import Header from "../../Components/Auxiliary/Web/Header";
 import Image from "../../Components/Auxiliary/Web/Image";
 import IntroBlock from "../../Components/Auxiliary/Web/IntroBlock";
+import CarouselIntroBlock from "../../Components/Auxiliary/Web/IntroBlock/carousel";
 import Main from "../../Components/Auxiliary/Web/Main";
-import { Panel, PanelItem } from "../../Components/Auxiliary/Web/Panel";
+import { CenterPanel, Panel, PanelItem } from "../../Components/Auxiliary/Web/Panel";
 import Background1 from "../../Images/Background1.png";
 import Background2 from "../../Images/Background2.png";
 import Background3 from "../../Images/Background3.png";
@@ -26,6 +29,21 @@ const HomePage = () => (
                         <Image src={Background1} alt="Background 1"/>
                     </PanelItem>
                 </Panel>
+            </Article>
+
+            <Article>
+                <CenterPanel>
+                    <CarouselIntroBlock title="Ngân hàng đề thi"
+                        text="Xem các đề thi từ Cambridge và các nguồn uy tín khác"
+                        buttonText="Xem tất cả"
+                        buttonLink="https://google.com">
+                        <Carousel>
+                            <CarouselItem />
+                            <CarouselItem />
+                            <CarouselItem />
+                        </Carousel>
+                    </CarouselIntroBlock>
+                </CenterPanel>
             </Article>
 
             <Article>
@@ -59,6 +77,7 @@ const HomePage = () => (
                 </Panel>
             </Article>
         </Main>
+        <Footer text="Made by Phat with <3"/>
     </div>
 );
 
