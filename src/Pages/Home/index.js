@@ -7,7 +7,7 @@ import Image from "../../Components/Auxiliary/Web/Image";
 import IntroBlock from "../../Components/Auxiliary/Web/IntroBlock";
 import CarouselIntroBlock from "../../Components/Auxiliary/Web/IntroBlock/carousel";
 import Main from "../../Components/Auxiliary/Web/Main";
-import { CenterPanel, OneThirdPanel, Panel, PanelItem, TwoThirdPanel } from "../../Components/Auxiliary/Web/Panel";
+import { CenterPanel, OneThirdPanel, Panel, TwoThirdPanel } from "../../Components/Auxiliary/Web/Panel";
 import Background1 from "../../Images/Background1.png";
 import Background2 from "../../Images/Background2.png";
 import Background3 from "../../Images/Background3.png";
