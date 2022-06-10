@@ -1,19 +1,24 @@
 import Header from "../../Components/Auxiliary/Web/Header";
+import Image from "../../Components/Auxiliary/Web/Image";
 import Main from "../../Components/Auxiliary/Web/Main";
-import { OneHalfPanel, Panel } from "../../Components/Auxiliary/Web/Panel";
+import { OneThirdPanel, Panel, TwoThirdPanel } from "../../Components/Auxiliary/Web/Panel";
+import Heading from "../../Components/Auxiliary/Web/Text/Heading";
+import SubTitle from "../../Components/Auxiliary/Web/Text/SubTitle";
+import Background4 from "../../Images/Background4.png";
 
 const LibraryPage = () => (
-    <div className="w-1/2 mx-auto">
+    <div className="w-2/3 mx-auto">
         <Header />
         <Main>
             <Panel>
-                <OneHalfPanel>
+                <OneThirdPanel>
+                    <Heading>Ngân hàng đề thi IELTS</Heading>
+                    <SubTitle>Các đề thi IELTS từ các nguồn uy tín như Cambridge và GEL IELTS - đối tác chính thức của British Council</SubTitle>
+                </OneThirdPanel>
 
-                </OneHalfPanel>
-
-                <OneHalfPanel>
-                    
-                </OneHalfPanel>
+                <TwoThirdPanel>
+                    <Image src={Background4} alt="Background"/>
+                </TwoThirdPanel>
             </Panel>
         </Main>
     </div>
