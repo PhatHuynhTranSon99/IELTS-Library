@@ -7,12 +7,14 @@ import {
     OneThirdPanel, 
     Panel, 
     ThreeFourthPanel, 
-    TwoThirdPanel 
+    TwoThirdPanel,
+    Centered
 } from "../../Components/Auxiliary/Web/Panel";
 import SideNav from "../../Components/Auxiliary/Web/SideNav";
 import Heading from "../../Components/Auxiliary/Web/Text/Heading";
 import SubTitle from "../../Components/Auxiliary/Web/Text/SubTitle";
 import Background4 from "../../Images/Background4.png";
+import HotCollection from "./Hot";
 
 const LibraryPage = () => (
     <div className="w-2/3 mx-auto">
@@ -20,8 +22,10 @@ const LibraryPage = () => (
         <Main>
             <Panel>
                 <OneThirdPanel>
-                    <Heading>Ngân hàng đề thi IELTS</Heading>
-                    <SubTitle>Các đề thi IELTS từ các nguồn uy tín như Cambridge và GEL IELTS - đối tác chính thức của British Council</SubTitle>
+                    <Centered>
+                        <Heading>Ngân hàng đề thi IELTS</Heading>
+                        <SubTitle>Các đề thi IELTS từ các nguồn uy tín như Cambridge và GEL IELTS - đối tác chính thức của British Council</SubTitle>
+                    </Centered>
                 </OneThirdPanel>
 
                 <TwoThirdPanel>
@@ -35,7 +39,7 @@ const LibraryPage = () => (
                 </OneFourthPanel>
 
                 <ThreeFourthPanel>
-
+                    <HotCollection />
                 </ThreeFourthPanel>
             </Panel>
         </Main>

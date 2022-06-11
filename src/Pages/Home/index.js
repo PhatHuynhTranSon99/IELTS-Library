@@ -7,7 +7,7 @@ import Image from "../../Components/Auxiliary/Web/Image";
 import IntroBlock from "../../Components/Auxiliary/Web/IntroBlock";
 import CarouselIntroBlock from "../../Components/Auxiliary/Web/IntroBlock/carousel";
 import Main from "../../Components/Auxiliary/Web/Main";
-import { CenterPanel, OneThirdPanel, Panel, TwoThirdPanel } from "../../Components/Auxiliary/Web/Panel";
+import { CenterPanel, Centered, OneThirdPanel, Panel, TwoThirdPanel } from "../../Components/Auxiliary/Web/Panel";
 import Background1 from "../../Images/Background1.png";
 import Background2 from "../../Images/Background2.png";
 import Background3 from "../../Images/Background3.png";
@@ -19,10 +19,12 @@ const HomePage = () => (
             <Article>
                 <Panel>
                     <OneThirdPanel>
-                        <IntroBlock title="Đề thi IELTS"
-                            text="Tổng hợp các đề thi IELST chính thức và mới nhất hiện nay"
-                            buttonText="Xem ngay"
-                            buttonLink="https://google.com"/>
+                        <Centered>
+                            <IntroBlock title="Đề thi IELTS"
+                                text="Tổng hợp các đề thi IELST chính thức và mới nhất hiện nay"
+                                buttonText="Xem ngay"
+                                buttonLink="https://google.com"/>
+                        </Centered>
                     </OneThirdPanel>
 
                     <TwoThirdPanel>
@@ -53,11 +55,13 @@ const HomePage = () => (
                     </TwoThirdPanel>
 
                     <OneThirdPanel>
-                        <IntroBlock title="Đề Speaking"
-                            text="Các đề thi thật mới nhất tại Việt Nam cùng bài giải"
-                            buttonText="Xem tất cả"
-                            buttonLink="https://google.com"
-                            alignLeft={false}/>
+                        <Centered>
+                            <IntroBlock title="Đề Speaking"
+                                text="Các đề thi thật mới nhất tại Việt Nam cùng bài giải"
+                                buttonText="Xem tất cả"
+                                buttonLink="https://google.com"
+                                alignLeft={false}/>
+                        </Centered>
                     </OneThirdPanel>
                 </Panel>
             </Article>
@@ -65,10 +69,12 @@ const HomePage = () => (
             <Article>
                 <Panel>
                     <OneThirdPanel>
-                        <IntroBlock title="Đề Writing"
-                            text="Các đề thi thật mới nhất cùng với chú thích chi tiết về từ vựng và ngữ pháp"
-                            buttonText="Xem tất cả"
-                            buttonLink="https://google.com"/>
+                        <Centered>
+                            <IntroBlock title="Đề Writing"
+                                text="Các đề thi thật mới nhất cùng với chú thích chi tiết về từ vựng và ngữ pháp"
+                                buttonText="Xem tất cả"
+                                buttonLink="https://google.com"/>
+                        </Centered>
                     </OneThirdPanel>
 
                     <TwoThirdPanel>
