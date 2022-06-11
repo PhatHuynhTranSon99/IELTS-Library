@@ -1,7 +1,15 @@
 import Header from "../../Components/Auxiliary/Web/Header";
 import Image from "../../Components/Auxiliary/Web/Image";
 import Main from "../../Components/Auxiliary/Web/Main";
-import { OneThirdPanel, Panel, TwoThirdPanel } from "../../Components/Auxiliary/Web/Panel";
+import Footer from "../../Components/Auxiliary/Web/Footer";
+import { 
+    OneFourthPanel, 
+    OneThirdPanel, 
+    Panel, 
+    ThreeFourthPanel, 
+    TwoThirdPanel 
+} from "../../Components/Auxiliary/Web/Panel";
+import SideNav from "../../Components/Auxiliary/Web/SideNav";
 import Heading from "../../Components/Auxiliary/Web/Text/Heading";
 import SubTitle from "../../Components/Auxiliary/Web/Text/SubTitle";
 import Background4 from "../../Images/Background4.png";
@@ -20,7 +28,18 @@ const LibraryPage = () => (
                     <Image src={Background4} alt="Background"/>
                 </TwoThirdPanel>
             </Panel>
+
+            <Panel>
+                <OneFourthPanel>
+                    <SideNav />
+                </OneFourthPanel>
+
+                <ThreeFourthPanel>
+
+                </ThreeFourthPanel>
+            </Panel>
         </Main>
+        <Footer />
     </div>
 );
 
