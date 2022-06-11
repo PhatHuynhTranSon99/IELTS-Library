@@ -1,9 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
+import mockData from "../../../Mock/Collections";
 
 const LatestCollection = createSlice({
     name: "hot",
     initialState: {
-        items: [],
+        items: mockData,
         loading: false,
         error: null
     },
